@@ -58,6 +58,8 @@ class LoginViewController: UIViewController {
             alUser.password = password.text
             ALUserDefaultsHandler.setPassword(alUser.password)
         }
+        alUser.pushNotificationFormat = 4;
+        alUser.notificationMode = 2;
         registerUserToApplozic(alUser: alUser)
     }
 

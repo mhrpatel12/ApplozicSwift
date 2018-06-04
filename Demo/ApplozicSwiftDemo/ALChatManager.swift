@@ -20,7 +20,7 @@ var APNS_TYPE_DISTRIBUTION : Int16 = 1
 
 class ALChatManager: NSObject {
 
-    static let applicationId = "applozic-sample-app"
+    static let applicationId = "3141b90f0a677799aae5947fdafc7d0cd"
 
     static let shared = ALChatManager(applicationKey: ALChatManager.applicationId as NSString)
 
